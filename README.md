@@ -24,15 +24,18 @@
 #### PHP 내장함수
 + strlen - 문자열의 길이를 계산하는 함수
 + nl2br - 문자열의 모든 줄바꿈 앞에 HTML 줄바꿈 태그를 삽입
-+ file_get_contents - 파일명을 쓰면 이 함수는 파일의 내용에 대한 표현식이 됨
-+ var_dump - 입력값을 출력, 데이터 타입까지 출력해줌
++ file_get_contents (파일명) - 파일의 내용에 대한 표현식이 됨
++ file_put_contents (파일명, [변수 등]) - 파일에 출력
++ var_dump , print_r() - 입력값을 출력, 데이터 타입까지 출력해줌
 + isset - 값이 있냐 없냐에 따라 불리언 값 반환
 + array_push(변수, 값(''), 값(''))등 array function들 있음
 + scandir - 스캔하려는 디렉토리, 파일의 이름이 배열에 담겨 제공됨
 + count - 배열 원소 개수
 
 #### PHP 함수
-+
++ function 함수이름(parameter) {  // return 값}
++ 호출 : 함수이름(argument);
++ 하나의 함수는 하나의 기능을 갖게 하면 좋음
 
 #### 기타
 + google 에서 특정 사이트에서 검색하고 싶을 때 site:php.net [주제] 검색
